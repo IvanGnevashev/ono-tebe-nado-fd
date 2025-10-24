@@ -15,3 +15,11 @@
   font-weight: bold;
   font-display: swap;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src:
+     url(.Raleway-v4020-Medium.otf) format('otf');
+    font-weight: 500;
+    font-display: swap;
+}
