@@ -7,7 +7,7 @@
 
 .header__links-list {
     font-size: 18px;
-    max-width: 390px;   
+    max-width: 390px;
     padding-top: 1px;
     display: flex;
     flex-direction: row;
@@ -24,10 +24,6 @@
 .header__link {
     text-decoration: underline;
     text-underline-offset: 5px;
-}
-
-.header__links-list-item_no-bullit {
-    list-style: none;
 }
 
 .header__link_active {
