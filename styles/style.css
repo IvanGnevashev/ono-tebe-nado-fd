@@ -190,10 +190,16 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
+    background-size: 165% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
+    background-size: 160% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card_type_picture {
