@@ -12,7 +12,7 @@
     flex-direction: row;
     gap: 13px;
     list-style: circle;
-    letter-spacing: 1.02px;
+    letter-spacing: 0.96px;
     white-space: nowrap;
     list-style-position: inside;
 }
@@ -103,7 +103,7 @@
 }
 
 .aligned-text_center {
-    padding: 20px;
+    padding: 21px;
     justify-content: center;
 }
 
@@ -126,12 +126,12 @@
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
-    margin: 105px 50px 50px;
+    margin: 104px 50px 50px;
     align-items: center;
 }
 
 .cover__description-text {
-    padding-top: 5px;
+    padding-top: 2px;
     line-height: 28px;
     word-spacing: 18.5px;
 }
@@ -148,7 +148,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #fff;
-    padding: 15px 32px 14px 31px;
+    padding: 14px 33px 13px 30px;
 }
 
 .lots {
@@ -254,7 +254,7 @@
 }
 
 .about__logo-image {
-    max-width: 62%;
+    max-width: 61.7%;
 }
 
 .about__title {
@@ -273,7 +273,7 @@
 }
 
 .footer {
-    margin: 180px 0 0;
+    margin: 179px 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 180px;
@@ -297,7 +297,7 @@
 }
 
 .footer__menu {
-    margin: 0 auto 0;
+    margin: 2px auto 0;
     text-align: center;
 }
 
