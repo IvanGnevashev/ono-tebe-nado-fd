@@ -6,15 +6,19 @@
 }
 
 .header__links-list {
-    max-width: 390px;
+    font-size: 18px;
+    max-width: 390px;   
     padding-top: 1px;
     display: flex;
     flex-direction: row;
-    gap: 13px;
+    gap: 33px;
     list-style: circle;
-    letter-spacing: 0.96px;
     white-space: nowrap;
-    list-style-position: inside;
+    list-style-position: outside;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
 }
 
 .header__link {
@@ -26,7 +30,7 @@
     list-style: none;
 }
 
-.header__link_active .header__link {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -64,12 +68,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-position: center;
 }
 
 .overlay {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0 auto 0;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -181,6 +185,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -190,16 +195,10 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: 165% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: 160% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .card_type_picture {
@@ -240,7 +239,6 @@
     margin: 120px 24px 0;
     display: grid;
     grid-template-columns: 334px 1fr;
-    grid-template-rows: 596px 1fr;
     column-gap: 25px;
     align-items: start;
 }
@@ -276,10 +274,9 @@
 }
 
 .footer {
-    margin: 179px 0 0;
+    margin: 181px 0 82px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 180px;
 }
 
 .address_footer {
@@ -295,7 +292,7 @@
 }
 
 .address_footer span {
-    padding-top: 1.9px;
+    padding-top: 2px;
     padding-left: 1px;
 }
 
@@ -305,14 +302,14 @@
 }
 
 .footer__menu-list-item {
+    font-size: 18px;
     list-style: none;
-    line-height: 1.3;
-    letter-spacing: 1px;
+    line-height: 1.1;
     text-underline-offset: 5.1px;
     padding-left: 1px;
 }
 
-.footer__menu-link_active .header_menu-link {
+.footer__menu-link_active {
     text-decoration: none;
 }
 
